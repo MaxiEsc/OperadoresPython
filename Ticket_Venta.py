@@ -23,10 +23,12 @@ descuento = costo_total * 0.15
 costo_final = costo_total - descuento
 
 print(f''''------ Gracias Por su compra!!! -------
-Subtotal: ${costo_total:.3f}
-Impuesto: ${impuesto}
-Costo total: ${costo_total}
-Costo Final: ${costo_final}''')
+Subtotal: ${total_sin_impuestos:.2f}
+Impuesto: ${impuesto:.2f}
+Descuento: ${descuento:.2f}
+Costo total: ${costo_total:.2f}
+--------------------------------------------
+Costo Final: ${costo_final:.2f}''')
 
 
 
