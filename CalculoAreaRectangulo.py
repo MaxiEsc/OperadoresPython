@@ -19,4 +19,3 @@ muchas gracias por utilizar nuestros servicios''')
 # comparacion ==,=>,=<,
 # logicos not and or
 # asignacion /=,%=,//=, **=
-
